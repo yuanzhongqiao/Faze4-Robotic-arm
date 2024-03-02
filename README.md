@@ -1,50 +1,34 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-# Faze4-Robotic-arm
-
-
-<img src="https://user-images.githubusercontent.com/30388414/86795587-028dbb80-c06e-11ea-9d71-3d6fbda6cb87.png" width="1200"> 
-
-https://source-robotics.com
-
-Join discord community: https://discord.com/invite/prjUvjmGpZ 
-Faze4 is small fully 3d printable Open source 6 axis robotic arm. It is functionally and esthetically similar to robotic arms in industry but is aimed for research, education and 
-anyone interested in making his own robot arm. 
-Main "selling points" of this arm that separate it from other DIY arms are:
-
-
-* It is cheap <1000 dollars.
-* Uses 3D printed cycloidal gearboxes which have low backlash and can be repaired really easy.
-* All wires are hidden giving it clean design.
-
-
-Whole arm has around 1000 parts (including screws and bearings) and weights around 15 kg.
-
-# Check the arm in action!
-[![Check the arm in action !](https://user-images.githubusercontent.com/30388414/86797452-f86cbc80-c06f-11ea-962e-c3f80d14b41b.png)](https://www.youtube.com/watch?v=ye37Mpj5qCQ)
-
-# Where to start? 
-
-To build this robotic arm follow [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.1.pdf). All general info about robotic arm is in [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/). Building instructions and DOCS go hand in hand and you need to follow both to build this arm. Building instructions are about general mechanical assembly while DOCS contain ALL info ( Electrical wiring, Low level setup, High level ROS and Matlab, tips ...).
-
-# Contents:
-
-- [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.1.pdf)
-- [BOM](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/BOM_7_11_2023.xlsx) 
-- [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/) Contains ALL info about the arm.
-- [URDF files](https://github.com/PCrnjak/Faze4-Robotic-arm/tree/master/URDF_FAZE4) 
-
-# Where to see more Faze4 robotic arm?
-- [Youtube](https://www.youtube.com/channel/UCp3sDRwVkbm7b2M-2qwf5aQ)
-- [Hackaday](https://hackaday.io/project/167247-faze4-robotic-arm)
-- [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/)
-
-
-# Support the project
-
-This project is completely Open source and free to all and I would like to keep it that way, so any help 
-in terms of donations or advice is really appreciated. Thank you!
-
-[![Check the arm in action !](https://user-images.githubusercontent.com/30388414/86798915-a036ba00-c071-11ea-824d-4456f2cdf797.png)](https://paypal.me/PCrnjak?locale.x=en_US)
-
-# Project is under MIT Licence
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://camo.githubusercontent.com/b59ba4ef5c86bc79e9e3e9039f1b96a4db59e7f96a7ba04abfc6548ae88c461b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d677265656e2e737667" alt="许可证：麻省理工学院" data-canonical-src="https://img.shields.io/badge/License-MIT-green.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Faze4-机械臂</font></font></h1><a id="user-content-faze4-robotic-arm" class="anchor-element" aria-label="永久链接：Faze4-机械臂" href="#faze4-robotic-arm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/30388414/86795587-028dbb80-c06e-11ea-9d71-3d6fbda6cb87.png"><img src="https://user-images.githubusercontent.com/30388414/86795587-028dbb80-c06e-11ea-9d71-3d6fbda6cb87.png" width="1200" style="max-width: 100%;"></a></p> 
+<p dir="auto"><a href="https://source-robotics.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://source-robotics.com</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入不和谐社区：</font></font><a href="https://discord.com/invite/prjUvjmGpZ" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://discord.com/invite/prjUvjmGpZ</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+Faze4 是小型完全可 3D 打印的开源 6 轴机械臂。</font><font style="vertical-align: inherit;">它在功能和美观上与工业中的机械臂相似，但面向研究、教育和任何有兴趣制造自己的机械臂的人。</font><font style="vertical-align: inherit;">该手臂区别于其他DIY手臂的主要“卖点”是：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它很便宜&lt;1000美元。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 3D 打印摆线齿轮箱，齿隙低，维修起来非常容易。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有电线均隐藏，设计简洁。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整个手臂约有1000个零件（包括螺丝和轴承），重量约15公斤。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查手臂的动作！</font></font></h1><a id="user-content-check-the-arm-in-action" class="anchor-element" aria-label="永久链接：检查手臂的动作！" href="#check-the-arm-in-action"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://www.youtube.com/watch?v=ye37Mpj5qCQ" rel="nofollow"><img src="https://user-images.githubusercontent.com/30388414/86797452-f86cbc80-c06f-11ea-962e-c3f80d14b41b.png" alt="检查手臂的动作！" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从哪儿开始？</font></font></h1><a id="user-content-where-to-start" class="anchor-element" aria-label="永久链接：从哪里开始？" href="#where-to-start"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要构建此机械臂，请遵循</font></font><a href="https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.1.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有关机械臂的所有一般信息都在</font></font><a href="https://faze4-robotic-arm-docs.readthedocs.io/en/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOCS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中。</font><font style="vertical-align: inherit;">搭建说明和文档是齐头并进的，您需要遵循两者来搭建这只手臂。</font><font style="vertical-align: inherit;">构建说明是关于一般机械组装的，而 DOCS 包含所有信息（电气接线、低级设置、高级 ROS 和 Matlab、提示...）。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容：</font></font></h1><a id="user-content-contents" class="anchor-element" aria-label="永久链接： 内容：" href="#contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.1.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搭建说明</font></font></a></li>
+<li><a href="https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/BOM_7_11_2023.xlsx"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">物料清单</font></font></a></li>
+<li><a href="https://faze4-robotic-arm-docs.readthedocs.io/en/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DOCS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含有关手臂的所有信息。</font></font></li>
+<li><a href="https://github.com/PCrnjak/Faze4-Robotic-arm/tree/master/URDF_FAZE4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">URDF 文件</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哪里可以看到更多Faze4机械臂？</font></font></h1><a id="user-content-where-to-see-more-faze4-robotic-arm" class="anchor-element" aria-label="永久链接：哪里可以看到更多 Faze4 机械臂？" href="#where-to-see-more-faze4-robotic-arm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://www.youtube.com/channel/UCp3sDRwVkbm7b2M-2qwf5aQ" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YouTube</font></font></a></li>
+<li><a href="https://hackaday.io/project/167247-faze4-robotic-arm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哈卡迪</font></font></a></li>
+<li><a href="https://faze4-robotic-arm-docs.readthedocs.io/en/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档管理系统</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持项目</font></font></h1><a id="user-content-support-the-project" class="anchor-element" aria-label="永久链接：支持该项目" href="#support-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个项目是完全开源的，对所有人免费，我希望保持这种状态，因此非常感谢捐赠或建议方面的任何帮助。</font><font style="vertical-align: inherit;">谢谢你！</font></font></p>
+<p dir="auto"><a href="https://paypal.me/PCrnjak?locale.x=en_US" rel="nofollow"><img src="https://user-images.githubusercontent.com/30388414/86798915-a036ba00-c071-11ea-824d-4456f2cdf797.png" alt="检查手臂的动作！" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目已获得 MIT 许可</font></font></h1><a id="user-content-project-is-under-mit-licence" class="anchor-element" aria-label="永久链接：项目已获得 MIT 许可" href="#project-is-under-mit-licence"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+</article></div>
